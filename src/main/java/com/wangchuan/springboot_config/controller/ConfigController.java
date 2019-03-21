@@ -16,7 +16,7 @@ public class ConfigController {
 
     @RequestMapping("/1")
     public String index1(){
-        return "hello"+name;
+        return "hello" + name;
     }
 
 }

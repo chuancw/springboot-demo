@@ -11,15 +11,15 @@ import java.util.Map;
 
 
 /**
- *    @Component注解  将组件加入spring容器中
- *    @ConfigurationProperties(prefix = "person")   类属性和配置文件进行绑定
+ * @Component注解  将组件加入spring容器中
+ * @ConfigurationProperties(prefix = "person")   类属性和配置文件进行绑定
  * 默认是从全局文件中获取
- *    @Validated 数据校验  支持JSR303规范
+ * @Validated 数据校验  支持JSR303规范
  */
 
 @Component
 @ConfigurationProperties(prefix = "person")
-@Validated    //JSR303 校验
+@Validated  //JSR303 校验
 public class Person {
 
     private String lastname;
