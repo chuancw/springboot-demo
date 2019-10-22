@@ -13,7 +13,6 @@ public class ConfigController {
     @Value("${person.dog.name}")
     private String name;
 
-
     @RequestMapping("/1")
     public String index1(){
         return "hello" + name;

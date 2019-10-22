@@ -9,7 +9,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-
 /**
  * @Component注解  将组件加入spring容器中
  * @ConfigurationProperties(prefix = "person")   类属性和配置文件进行绑定
