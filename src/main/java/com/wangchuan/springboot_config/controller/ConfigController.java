@@ -17,5 +17,4 @@ public class ConfigController {
     public String index1(){
         return "hello" + name;
     }
-
 }
