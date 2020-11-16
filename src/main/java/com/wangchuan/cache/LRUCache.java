@@ -12,6 +12,7 @@ public class LRUCache<K, V> {
 
     private LinkedHashMap<K, V> map;
 
+
     public LRUCache(int cacheSize) {
         MAX_CACHE_SIZE = cacheSize;
         int capacity = (int)Math.ceil(MAX_CACHE_SIZE / DEFAULT_LOAD_FACTORY) + 1;

@@ -1,7 +1,7 @@
 package com.wangchuan;
 
-import com.wangchuan.springboot_config.bean.EmployeeConfig;
-import com.wangchuan.springboot_config.bean.Person;
+import com.wangchuan.config.EmployeeConfig;
+import com.wangchuan.config.Person;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

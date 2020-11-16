@@ -1,4 +1,4 @@
-package com.wangchuan.springboot_config.bean;
+package com.wangchuan.bean;
 
 public class Dog {
 

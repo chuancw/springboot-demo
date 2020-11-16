@@ -1,5 +1,6 @@
-package com.wangchuan.springboot_config.bean;
+package com.wangchuan.config;
 
+import com.wangchuan.bean.Dog;
 import org.hibernate.validator.constraints.Range;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
